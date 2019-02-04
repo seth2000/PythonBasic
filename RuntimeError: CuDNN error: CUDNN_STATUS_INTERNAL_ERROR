@@ -1,0 +1,6 @@
+Solved: RuntimeError: CuDNN error: CUDNN_STATUS_INTERNAL_ERROR
+
+If you have problem with the error like this RuntimeError: CuDNN error: CUDNN_STATUS_INTERNAL_ERROR.
+
+Usually you have to reinstall GPU Driver. Please unistall Nvidia cuda X.X, and download the lastest one, reinstall. 
+It includes the latest graphic card drive, so the problem will be sloved after your reinistall the CUDA software.
