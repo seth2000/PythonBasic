@@ -1,8 +1,0 @@
-pip install pytube
-
-# Change the youtbe code in the URL will be enough
-python
->>> from pytube import YouTube
->>> YouTube('http://youtube.com/watch?v=QNT8jBmtQP8&autoplay=1&loop=1&rel=0').streams.first().download()
-
-Please remember adding the parameters as  &autoplay=1&loop=1&rel=0 which is very important to download the files.
